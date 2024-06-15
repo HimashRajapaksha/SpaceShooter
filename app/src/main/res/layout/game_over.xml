@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding = "16dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="152dp"
+            android:layout_height="143dp"
+            android:background="@drawable/restart"
+            android:contentDescription="restart"
+            android:onClick="restart" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/exit"
+            android:contentDescription="exit"
+            android:onClick="exit" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="64dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="721dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="995px"
+            android:text="@string/your_points"
+            android:textColor="#330022"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPoints"
+            android:layout_width="714dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="980px"
+            android:text="@string/points"
+            android:textColor="#330022"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHighScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="935px"
+            android:paddingTop="10px"
+            android:text="@string/points"
+            android:textColor="#330022"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Space Shooter</string>
+    <string name="restart">Restart</string>
+    <string name="exit">Exit</string>
+    <string name="your_points">Your Points</string>
+    <string name="points">Points</string>
+
+</resources>
